@@ -9,3 +9,8 @@
     - kubernetes-test-linux-ppc64le.tar.gz
     - kubernetes-client-linux-ppc64le.tar.gz
     - kubernetes-server-linux-ppc64le.tar.gz
+- debug: msg="DETAILS OF S3 STORAGE"
+- debug: msg="{{ s3_server }}"
+- debug: msg="{{ bucket }}"
+- debug: msg="{{ directory }}"
+- debug: msg="{{ build_version }}"
